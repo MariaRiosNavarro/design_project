@@ -186,7 +186,7 @@ ul {
 }
 
 .skills {
-  padding-bottom: 27rem;
+  padding-bottom: 25rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
@@ -195,8 +195,10 @@ ul {
 }
 
 .skills li {
-  height: 13rem;
+  height: 17rem;
   display: flex;
+
+  justify-content: center;
 }
 
 .skill-one {
