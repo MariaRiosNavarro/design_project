@@ -1,3 +1,18 @@
+@font-face {
+  font-family: RobotoB;
+  src: url("../fonts/Roboto/Roboto-Black.ttf");
+}
+
+@font-face {
+  font-family: RobotoL;
+  src: url("../fonts/Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/Roboto-Medium.ttf");
+}
+
 *,
 *::before,
 *::after {
@@ -5,3 +20,63 @@
   margin: 0;
   padding: 0;
 }
+
+html {
+  font-size: 62.5%;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* 
+!----------------------------header---------------------------------------
+*/
+
+.main-header {
+  background: url("../img/ilustracion1.png") no-repeat center;
+  background-size: contain;
+  background-position-x: left;
+  /* width: 100%; */
+}
+
+.main-header h1 {
+}
+
+/* 
+!----------------------------Main---------------------------------------
+*/
+
+/* 
+#--------------------------#SECTION intro: images + explanation (skills)-----------------------------------
+*/
+
+.big-collage {
+  width: 100vw;
+}
+.icon {
+  height: 3.2rem;
+  width: 3.2rem;
+}
+
+/*
+#--------------------------#SECTION challenge: intro-challenge + challenge-description-----------------------------------
+*/
+
+.step-image {
+  width: 40%;
+}
+
+.text-container {
+  width: 40%;
+}
+/*
+#--------------------------#SECTION subscribe ---------------------------------
+*/
+
+/* ! ----------------------Footer------------------------------------------------- */

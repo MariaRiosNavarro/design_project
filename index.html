@@ -8,25 +8,33 @@
   </head>
   <body>
     <!-- !HEADER + Animation -->
-    <header>
-      <h1>TheDesignProject</h1>
-      <h3>by a WebDesigner</h3>
-      <img
-        class="floating-man"
-        src="./assets/img/ilustracion_people.png"
-        alt="floating-man"
-      />
-      <h2>How to become a better designer?</h2>
-      <p>A challenge to improve your product design skills by solving</p>
-      <p>problems in your daily life 🚀</p>
-      <a href="#">Scroll to see more —</a>
+    <header class="main-header">
+      <article class="header-text">
+        <div class="title-container">
+          <h1>TheDesignProject</h1>
+          <h3>by a WebDesigner</h3>
+        </div>
+        <div class="message-container">
+          <h2>How to become a better designer?</h2>
+          <p>A challenge to improve your product design skills by solving</p>
+          <p>problems in your daily life 🚀</p>
+          <a href="#">Scroll to see more —</a>
+        </div>
+      </article>
+      <article class="header-illustration">
+        <img
+          class="floating-man"
+          src="./assets/img/ilustracion_people.png"
+          alt="floating-man"
+        />
+      </article>
     </header>
     <!-- !MAIN with 3 Sections -->
     <main>
       <!-- #SECTION intro: images + explanation (skills)-->
       <section class="intro">
         <article class="images">
-          <img src="./assets/img/images.jpg" alt="" />
+          <img class="big-collage" src="./assets/img/images.jpg" alt="" />
         </article>
         <article class="explanation">
           <header class="explanation-header">
@@ -179,6 +187,8 @@
           </ul>
         </article>
       </section>
+
+      <!-- #SECTION subscribe -->
       <section class="subscribe">
         <h2>Do you like this challenge?</h2>
         <p>
@@ -189,6 +199,7 @@
         <button type="submit">Subscribe</button>
       </section>
     </main>
+    <!-- !Footer -->
     <footer>
       <p>Created with Love by a Webdesigner ❤️</p>
     </footer>
