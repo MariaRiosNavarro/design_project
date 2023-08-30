@@ -39,13 +39,34 @@ ul {
 */
 
 .main-header {
-  background: url("../img/ilustracion1.png") no-repeat center;
-  background-size: contain;
-  background-position-x: left;
-  /* width: 100%; */
+  display: grid;
+  gap: 1rem;
+  width: 100vw;
+  grid-template-columns: 40% 60%;
+  grid-template-areas: "text image";
+  background-color: blue;
 }
 
-.main-header h1 {
+.header-text-container {
+  grid-area: text;
+}
+.header-illustration-container {
+  grid-area: image;
+  background-color: red;
+  z-index: 10;
+  background: url("../img/ilustracion1.png") no-repeat center;
+  background-size: contain;
+  background-position: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header-illustration {
+}
+
+.floating-man {
+  width: 60%;
 }
 
 /* 
