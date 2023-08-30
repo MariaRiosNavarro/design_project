@@ -39,7 +39,7 @@ ul {
 !----------------------------header---------------------------------------
 */
 
-/* Animation-Background */
+/* Animation&Background */
 
 .header-illustration-container {
   width: 100vw;
@@ -111,12 +111,127 @@ ul {
 #--------------------------#SECTION intro: images + explanation (skills)-----------------------------------
 */
 
+/* images*/
 .big-collage {
   width: 100vw;
 }
+/* explanation */
+
+.explanation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* -------explanation-header */
+
+.explanation {
+  padding-top: 29rem;
+}
+
+.explanation-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+  padding-bottom: 10.7rem;
+}
+
+.headline-wrapper {
+  width: 9%;
+}
+
+.explanation-header h2 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45.6px; /* 120% */
+}
+
+.explanation-header p {
+  width: 40%;
+  color: #000;
+  font-family: RobotoL;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 36px; /* 200% */
+}
+
+.explanation-header h2 span {
+  display: inline-block;
+  transform: scale(2);
+  padding: 0.2rem;
+}
+
+/* -------explanation-learned */
+
+.learned h2 {
+  color: #000;
+  font-size: 3.8rem;
+  font-weight: 600;
+  line-height: 4.5rem;
+  padding-left: 15%;
+  padding-right: 30%;
+  padding-bottom: 19rem;
+}
+
 .icon {
   height: 3.2rem;
   width: 3.2rem;
+}
+
+.skills {
+  padding-bottom: 27rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "one two"
+    "three four";
+}
+
+.skills li {
+  height: 13rem;
+  display: flex;
+}
+
+.skill-one {
+  grid-area: one;
+}
+.skill-two {
+  grid-area: two;
+}
+.skill-three {
+  grid-area: three;
+}
+.skill-four {
+  grid-area: four;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  padding-top: 1rem;
+  padding-left: 2.4rem;
+}
+
+.flex-col h3 {
+  padding-bottom: 1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.flex-col p {
+  font-family: RobotoL;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 2.8rem;
 }
 
 /*
