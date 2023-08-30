@@ -39,34 +39,30 @@ ul {
 */
 
 .main-header {
-  display: grid;
+  /* display: grid;
   gap: 1rem;
-  width: 100vw;
+  
   grid-template-columns: 40% 60%;
   grid-template-areas: "text image";
-  background-color: blue;
+  background-color: blue; */
 }
 
-.header-text-container {
-  grid-area: text;
-}
 .header-illustration-container {
-  grid-area: image;
-  background-color: red;
+  width: 100vw;
   z-index: 10;
   background: url("../img/ilustracion1.png") no-repeat center;
   background-size: contain;
   background-position: right;
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
-.header-illustration {
+.header-text-container {
 }
 
 .floating-man {
   width: 60%;
+  animation: float 2s infinite linear;
 }
 
 /* 
@@ -101,3 +97,17 @@ ul {
 */
 
 /* ! ----------------------Footer------------------------------------------------- */
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-30px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
