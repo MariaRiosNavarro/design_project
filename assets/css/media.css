@@ -282,13 +282,13 @@
   }
 }
 
-/* #_____________________TABLETS-- */
+/* # Klein Desktop */
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+/* Für Desktop-Bildschirme */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
   body {
     position: relative;
     height: min-content;
-    background-color: red;
   }
 
   main {
@@ -298,13 +298,13 @@
 
   /* --header */
   .header-illustration-container {
-    max-width: 100%;
+    max-width: 100vw;
   }
 
   .title-container {
     padding: 2rem;
     background-color: white;
-    width: 100%;
+    width: 100vw;
   }
 
   .floating-man {
@@ -312,9 +312,288 @@
     width: 90%;
     height: auto;
     position: relative;
-    right: 0; /* Anpassung der Position */
-    top: 2rem; /* Anpassung der Position */
+    right: 100rem;
+    top: 17rem;
   }
 
-  /* ... Weitere Anpassungen für andere Elemente ... */
+  .message-container {
+    position: relative;
+    top: 80rem;
+    width: 100vw;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .message-container h2 {
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    line-height: 3rem;
+  }
+  .message-container p {
+    margin: 2rem auto 0 auto;
+    font-size: 2.5rem;
+    padding-bottom: 3rem;
+    width: 70vw;
+  }
+
+  /* -- */
+
+  .intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .big-collage {
+    position: relative;
+    top: 45rem;
+    max-width: 100vw;
+    width: 90vw;
+    padding: 0 2rem;
+    margin: 0 auto;
+    flex-shrink: 1;
+  
+  }
+  .explanation {
+    position: relative;
+    top: 29rem;
+    padding-top: 23rem;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+  }
+
+  .explanation-header {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .headline-wrapper {
+    width: 100vw;
+  }
+  .headline-wrapper h2 {
+    font-size: 3rem;
+    background-image: linear-gradient(
+      90deg,
+      rgba(84, 65, 247, 1) 0%,
+      rgba(82, 44, 218, 1) 50%,
+      rgba(78, 23, 188, 1) 75%
+    );
+    color: rgb(237, 233, 233);
+    width: 100vw;
+    padding: 2rem 0;
+    margin: 2rem 0;
+    text-align: center;
+  }
+
+  .explanation-header p {
+    width: 100%;
+    padding: 3rem;
+    position: relative;
+    top: -15rem;
+  }
+  .explanation-header h2 span {
+    transform: scale(1);
+  }
+  /* -- -------explanation-learned */
+
+  .learned {
+    position: relative;
+    top: -20rem;
+  }
+
+  .learned h2 {
+    width: 100vw;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem 0;
+    color: rgb(237, 233, 233);
+    background-image: linear-gradient(
+      90deg,
+      rgba(84, 65, 247, 1) 0%,
+      rgba(82, 44, 218, 1) 50%,
+      rgba(78, 23, 188, 1) 75%
+    );
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem auto;
+    margin: 0;
+
+  }
+
+  .skills li {
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    margin: 0;
+    height: 30rem;
+    width: 50%;
+    
+  }
+  .icon {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  .flex-col {
+    width: auto;
+    padding: 0 auto;
+  }
+
+
+  .flex-col h3 {
+    font-size: 2.5rem;
+  }
+  .flex-col p {
+    font-size: 2rem;
+  }
+
+  /* -- #SECTION challenge:*/
+
+  .challenge {
+    position: relative;
+    top: -10rem;
+    width: 100vw;
+  }
+
+  .intro-challenge {
+    padding: 0;
+    width: 100%;
+  }
+
+  .intro-challenge h2 {
+    background-image: linear-gradient(
+      90deg,
+      rgba(84, 65, 247, 1) 0%,
+      rgba(82, 44, 218, 1) 50%,
+      rgba(78, 23, 188, 1) 75%
+    );
+    color: rgb(237, 233, 233);
+    width: 100%;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+  }
+
+  .intro-challenge p {
+    padding: 4rem 4rem 10rem 4rem; 
+    font-weight: 300;
+    line-height: 2.8rem;
+    width: 80%;
+    font-size: 2rem;
+    
+  }
+
+  .challenge-description {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .chall-item {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    padding-bottom: 8rem;
+  }
+  .text-container,
+  .step-image {
+    width: 100vw;
+  }
+
+  .step-image {
+    margin: 0;
+    padding: 0 1rem;
+  }
+
+  .text-container {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -3rem;
+  }
+
+  .text-container H2 {
+    position: relative;
+    top: -38rem;
+    font-size: 4rem;
+    color: #4f1bc2;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+  }
+
+  .text-container p:last-of-type {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  /* ------ SECTION subscribe  */
+
+  .subscribe {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -19rem;
+  }
+
+  .subscribe h2 {
+    color: rgb(237, 233, 233);
+    background-image: linear-gradient(
+      90deg,
+      rgba(84, 65, 247, 1) 0%,
+      rgba(82, 44, 218, 1) 50%,
+      rgba(78, 23, 188, 1) 75%
+    );
+    width: 100vw;
+    padding: 3rem 0;
+    margin-bottom: 3rem;
+  }
+
+  .subscribe p {
+    padding: 5rem 0;
+    width: 80vw;
+  }
+
+  .subscribe input {
+    width: 80vw;
+  }
+  .subscribe button {
+    margin: 7rem 0 0 0;
+    width: 80vw;
+  }
+
+  footer {
+    width: 100vw;
+    height: 5vh;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+  }
+
+  footer p {
+    width: 100vw;
+    margin: 0;
+    font-family: 0.8rem;
+    text-align: center;
+  }
 }
+}
+
+/* --TABLETS */
+
+/*@media screen and (min-width: 768px) and (max-width: 991px) {}
+
+
+/* Für Tablet-Bildschirme im Hochformat */
+/* @media screen and (min-width: 768px) and (max-width: 991px) {} */
