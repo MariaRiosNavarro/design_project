@@ -557,13 +557,11 @@
   main {
     padding: 0;
     margin: 0 auto;
-    padding: 0 2rem;
   }
 
   /* --header */
   .header-illustration-container {
     max-width: 100vw;
-    padding: 0 2rem;
   }
 
   .title-container {
@@ -577,13 +575,13 @@
     width: 90%;
     height: auto;
     position: relative;
-    right: 95rem;
-    top: 7rem;
+    right: 83rem;
+    top: 8rem;
   }
 
   .message-container {
     position: relative;
-    top: 80rem;
+    top: 60rem;
     width: 100vw;
     padding: 2rem;
     text-align: center;
@@ -651,9 +649,10 @@
 
   .explanation-header p {
     width: 100%;
-    padding: 3rem;
+    padding: 4rem;
     position: relative;
     top: -15rem;
+    width: 90vw;
   }
   .explanation-header h2 span {
     transform: scale(1);
@@ -685,6 +684,7 @@
     flex-wrap: wrap;
     padding: 1rem auto;
     margin: 0;
+    width: 90vw;
   }
 
   .skills li {
@@ -715,8 +715,6 @@
   /* -- #SECTION challenge:*/
 
   .challenge {
-    /* position: relative;
-    top: -10rem; */
     width: 100vw;
   }
 
