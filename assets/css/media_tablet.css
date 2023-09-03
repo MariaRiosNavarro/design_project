@@ -1,0 +1,52 @@
+/* #_____________________TABLETS-- */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    position: relative;
+    height: min-content;
+  }
+
+  main {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  /* --header */
+  .header-illustration-container {
+    max-width: 100vw;
+  }
+
+  .title-container {
+    padding: 2rem;
+    background-color: white;
+    width: 100vw;
+  }
+
+  .floating-man {
+    object-fit: contain;
+    width: 90%;
+    height: auto;
+    position: relative;
+    right: 45rem;
+    top: 6rem;
+  }
+
+  .message-container {
+    position: relative;
+    top: 25rem;
+    width: 100vw;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .message-container h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .message-container p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-bottom: 2rem;
+  }
+}
