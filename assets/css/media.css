@@ -98,6 +98,8 @@
   .skills {
     display: flex;
     flex-direction: column;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   .skills li {
@@ -109,7 +111,45 @@
     margin-bottom: 2rem;
     margin-top: 2rem;
   }
-  /* -- */
+
+  .flex-col {
+    width: auto;
+    padding: 1rem 5rem 1rem 4rem;
+  }
+  .flex-col h3 {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  .intro {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  /* -- #SECTION challenge:*/
+
+  .challenge {
+    position: relative;
+    top: -18rem;
+  }
+
+  .intro-challenge {
+    padding-bottom: 2rem;
+  }
+
+  .intro-challenge h2 {
+    background-color: #4f1bc2;
+    color: rgb(237, 233, 233);
+    width: 100%;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+  }
+
+  .intro-challenge p {
+    padding: 4rem 4rem;
+    text-align: left;
+    line-height: 2.8rem;
+  }
 
   /* -- */
 }
