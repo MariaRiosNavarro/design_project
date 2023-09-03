@@ -149,6 +149,53 @@
     padding: 4rem 4rem;
     text-align: left;
     line-height: 2.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .challenge-description {
+    margin-bottom: 2rem;
+  }
+
+  .chall-item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    padding-bottom: 2rem;
+  }
+  .text-container,
+  .step-image {
+    width: 100vw;
+  }
+
+  .step-image {
+    padding: 2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .text-container {
+    text-align: center;
+    padding: 0rem 0rem 3rem 0rem;
+    margin: 0;
+    position: relative;
+    top: -8rem;
+  }
+
+  .text-container H2 {
+    position: relative;
+    font-size: 4rem;
+    top: -30rem;
+    color: #4f1bc2;
+    padding: 0;
+    width: 100vw;
+  }
+
+  .text-container p:last-of-type {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   /* -- */
