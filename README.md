@@ -1,4 +1,4 @@
-## design_project (DESKTOP VERSION)
+## design_project (Desktop, Tablet, Mobile VERSION)
 
 # [Deployment](https://mariariosnavarro.github.io/design_project/)
 
