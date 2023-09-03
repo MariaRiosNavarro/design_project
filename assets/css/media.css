@@ -30,7 +30,7 @@
   .message-container h2 {
     font-size: 2rem;
     line-height: 3rem;
-    mix-blend-mode: difference;
+    /* mix-blend-mode: difference; */
     /* z-index: 10; */
     /* filter: invert(1) grayscale(1) contrast(9) drop-shadow(0.05em 0.05em rgb(255, 204, 0)); */
   }
