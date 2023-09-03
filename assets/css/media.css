@@ -312,8 +312,8 @@
     width: 90%;
     height: auto;
     position: relative;
-    right: 100rem;
-    top: 17rem;
+    right: 110rem;
+    top: 7rem;
   }
 
   .message-container {
@@ -491,6 +491,16 @@
 
   .chall-item {
     margin-bottom: 2%;
+    align-items: center;
+    
+  }
+
+  .text-container p, .text-container h3{
+    font-size: 2rem;
+  }
+
+  .step-image{
+    margin-top: 5.5rem;
   }
 
 
