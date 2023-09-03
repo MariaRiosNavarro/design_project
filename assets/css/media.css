@@ -2,9 +2,9 @@
 @media screen and (max-width: 767px) {
   /* --header */
   .title-container {
-    padding: 1rem;
+    padding: 2rem;
     background-color: white;
-    width: 180%;
+    width: 100vw;
   }
 
   .header-illustration-container {
@@ -16,16 +16,15 @@
     width: 90%;
     height: auto;
     position: relative;
-    right: 25rem;
-    top: 4.5rem;
+    right: 38rem;
+    top: 6rem;
   }
 
   .message-container {
-    padding: 1rem;
     position: relative;
     top: 25rem;
-    width: 170%;
-    padding: 1rem;
+    width: 100vw;
+    padding: 2rem;
   }
 
   .message-container h2 {
@@ -46,10 +45,37 @@
 
   .big-collage {
     position: relative;
-    top: 17rem;
+    top: 20rem;
     max-width: 100vw;
-    width: 95%;
+    width: 95vw;
     padding: 1rem;
+    margin: 0 auto;
+  }
+  .explanation {
+    padding-top: 25rem;
+    margin: 0 auto;
+  }
+
+  .explanation-header {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .headline-wrapper {
+    width: 80vw;
+  }
+  .headline-wrapper h2 {
+    font-size: 2rem;
+  }
+
+  .explanation-header p {
+    width: 100%;
+    padding: 2rem;
+    position: relative;
+    top: -15rem;
+  }
+  .explanation-header h2 span {
+    transform: scale(1);
   }
   /* -- */
   /* -- */
