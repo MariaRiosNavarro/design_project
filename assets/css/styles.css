@@ -299,6 +299,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 0 14rem;
+  align-items: center;
 }
 .step-two,
 .step-four {
@@ -307,6 +308,7 @@ header {
 
 .step-image {
   width: 40%;
+  object-fit: contain;
 }
 
 .text-container {

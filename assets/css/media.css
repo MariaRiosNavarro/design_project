@@ -456,8 +456,8 @@
   /* -- #SECTION challenge:*/
 
   .challenge {
-    position: relative;
-    top: -10rem;
+    /* position: relative;
+    top: -10rem; */
     width: 100vw;
   }
 
@@ -489,61 +489,16 @@
     
   }
 
-  .challenge-description {
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
-
   .chall-item {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    padding-bottom: 8rem;
-  }
-  .text-container,
-  .step-image {
-    width: 100vw;
+    margin-bottom: 2%;
   }
 
-  .step-image {
-    margin: 0;
-    padding: 0 1rem;
-  }
-
-  .text-container {
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    top: -3rem;
-  }
-
-  .text-container H2 {
-    position: relative;
-    top: -38rem;
-    font-size: 4rem;
-    color: #4f1bc2;
-    padding: 0;
-    margin: 0;
-    width: 100vw;
-  }
-
-  .text-container p:last-of-type {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
-  }
 
   /* ------ SECTION subscribe  */
 
   .subscribe {
     margin: 0;
     padding: 0;
-    position: relative;
-    top: -19rem;
   }
 
   .subscribe h2 {
@@ -562,10 +517,12 @@
   .subscribe p {
     padding: 5rem 0;
     width: 80vw;
+    font-size: 2rem;
   }
 
   .subscribe input {
     width: 80vw;
+    font-size: 2rem;
   }
   .subscribe button {
     margin: 7rem 0 0 0;
@@ -574,11 +531,7 @@
 
   footer {
     width: 100vw;
-    height: 5vh;
-    position: absolute;
-    margin: 0 auto;
-    bottom: 0;
-    left: 0;
+    margin-top: 5rem;
   }
 
   footer p {
